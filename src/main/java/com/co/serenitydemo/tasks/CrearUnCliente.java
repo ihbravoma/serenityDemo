@@ -4,6 +4,7 @@ import com.co.serenitydemo.interactions.LlenarInformacionCliente;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import java.util.List;
@@ -27,6 +28,7 @@ public class CrearUnCliente implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
+                WaitUntil.the(BTN_NUEVOCLIENTE, WebElementStateMatchers.isEnabled()),
                 Click.on(BTN_NUEVOCLIENTE),
                 LlenarInformacionCliente.nuevo(datosCliente),
                 Click.on(BTN_APPLYCHANGES),
