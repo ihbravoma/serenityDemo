@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Serenity Demo</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="4a4dadef7c1d769f677c0dc90a445286b7cd79b69fdc25fc8559e8a53ab41503.html">Crear Cliente</a></span>
+                > <span class="truncate-60"><a
+                    href="ddc6dff522e683e676035ccb89c0dc0c54ee3a6b933e170bd331c07c98102079.html">: Crear cliente correctamente </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-02-2023 00:50</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Crear Cliente </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="34e268112714f1a0498bebe8905dc6ecc26983223851d43288febea2ae14462c.html">Crear Cliente
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">: Crear cliente correctamente
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que "Ian" ingresa a la aplicacion<br>Cuando introduce las credenciales<br><table class='embedded'><tbody><tr><td>&lt;usuario&gt;</td><td>&lt;clave&gt;</td></tr></tbody></table><br>Y accede a la seccion de Clientes<br>Y diligencia los datos con la siguiente informacion:<br><table class='embedded'><tbody><tr><td>&lt;customerID&gt;</td><td>&lt;companyName&gt;</td><td>&lt;contactName&gt;</td><td>&lt;contactTitle&gt;</td><td>&lt;address&gt;</td><td>&lt;country&gt;</td><td>&lt;city&gt;</td><td>&lt;phone&gt;</td></tr></tbody></table><br>Entonces se debe visualizar la creacion del cliente</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Example: {usuario=admin, clave=serenity, customerID=HAB, companyName=Hector Company, contactName=Ian Bravo, contactTitle=Software Engineer, address=Diag. 81B #76-76, country=Spain, city=Madrid, phone=3157006543}" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Dado que &quot;Ian&quot; ingresa a la aplicacion" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Ian ir a" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Ian opens the Inicio sesion" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Ian ir a (completed)" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Dado que &quot;Ian&quot; ingresa a la aplicacion (completed)" width="1366"/>
+                <img src="aaaaac8b43af900c365a5b8a384eb5c2bff368a1a40510cb06053740ffcfbc93.png" title=" Cuando introduce las credenciales
+| admin | serenity |" width="1366"/>
+                <img src="aaaaac8b43af900c365a5b8a384eb5c2bff368a1a40510cb06053740ffcfbc93.png" title=" Ian introducir credenciales" width="1366"/>
+                <img src="aaaaac8b43af900c365a5b8a384eb5c2bff368a1a40510cb06053740ffcfbc93.png" title=" Ian enters 'admin' into nombre de usuario" width="1366"/>
+                <img src="3b9765a706ba50b4eb99e9584189b19feaa0983d789f1ca44086d9e35ad9bf35.png" title=" Ian enters 'serenity' into clave de usuario" width="1366"/>
+                <img src="9018e56bb38318ca46f0573472325d46f674558cf13857ee75f02f3eb6010223.png" title=" Ian clicks on bot&oacute;n para iniciar sesi&oacute;n" width="1366"/>
+                <img src="9018e56bb38318ca46f0573472325d46f674558cf13857ee75f02f3eb6010223.png" title=" Ian introducir credenciales (completed)" width="1366"/>
+                <img src="97c6afeb906ef0440b723faaa5dd599be235e939f8835f25e88beeadfe7f922c.png" title=" Cuando introduce las credenciales
+| admin | serenity | (completed)" width="1366"/>
+                <img src="312bd1bca466a310f43647bf5fc4bce6529cdd725ff3b11ddf46ddf15f5bda3e.png" title=" Y accede a la seccion de Clientes" width="1366"/>
+                <img src="312bd1bca466a310f43647bf5fc4bce6529cdd725ff3b11ddf46ddf15f5bda3e.png" title=" Ian acceder al modulo cliente" width="1366"/>
+                <img src="312bd1bca466a310f43647bf5fc4bce6529cdd725ff3b11ddf46ddf15f5bda3e.png" title=" Ian clicks on enlace northwind" width="1366"/>
+                <img src="46588fd85272df25f8ca0293ee678bed5514b1fb5723c4d45e706ee51dbc6f9f.png" title=" Ian clicks on enlace para acceder al m&oacute;dulo de clientes" width="1366"/>
+                <img src="46588fd85272df25f8ca0293ee678bed5514b1fb5723c4d45e706ee51dbc6f9f.png" title=" Ian acceder al modulo cliente (completed)" width="1366"/>
+                <img src="8250bd654f708182ba74e35d7a0aabcf9e32e2b3383584adfef5a2a06ecce6bb.png" title=" Y accede a la seccion de Clientes (completed)" width="1366"/>
+                <img src="7be570a64618ec35639e52b5a178b750955522b9263f016d71df4bd6de88fd38.png" title=" Y diligencia los datos con la siguiente informacion:
+| HAB | Hector Company | Ian Bravo | Software Engineer | Diag. 81B #76-76 | Spain | Madrid | 3157006543 |" width="1366"/>
+                <img src="7be570a64618ec35639e52b5a178b750955522b9263f016d71df4bd6de88fd38.png" title=" Ian crear un cliente" width="1366"/>
+                <img src="7be570a64618ec35639e52b5a178b750955522b9263f016d71df4bd6de88fd38.png" title=" Ian clicks on bot&oacute;n para crear nuevo cliente" width="1366"/>
+                <img src="3215db18a54baaa8e3a8e0041115c3a6f2a7d522aa8dcd9fb57a1e3a707cd137.png" title=" Ian llenar informacion cliente" width="1366"/>
+                <img src="3215db18a54baaa8e3a8e0041115c3a6f2a7d522aa8dcd9fb57a1e3a707cd137.png" title=" Ian enters 'HAB' into id del cliente" width="1366"/>
+                <img src="04285f5b0883fbc6b5ef83f1e7208671c657e855a7d035dfd2ec33705198021d.png" title=" Ian enters 'Hector Company' into nombre de la compa&ntilde;&iacute;a" width="1366"/>
+                <img src="2f0ab6f48340300ecb9ecc9b1c75e7a672a18631f8f4865eac4aabf0158c4caa.png" title=" Ian enters 'Ian Bravo' into nombre del contacto" width="1366"/>
+                <img src="9ea0e0307ffa84a7487e2af1509724bd3bb8958bc2e99b3aa82d7df6ef64d1df.png" title=" Ian enters 'Software Engineer' into t&iacute;tulo del contacto" width="1366"/>
+                <img src="9b47633216b4038159b910aa4c8b23fece056d7d9f5b48c31c6e5e95c312613a.png" title=" Ian enters 'Diag. 81B #76-76' into direcci&oacute;n del cliente" width="1366"/>
+                <img src="e0aa1dd9df5419378ff8e0335361ea4cf8d60050a811e48810111b25d537a7f3.png" title=" Ian clicks on opciones de pa&iacute;ses" width="1366"/>
+                <img src="e16e5df2a19d7d058c63d7aeffaf5df5b6b25128ba3e71329aa187b8e758a259.png" title=" Ian enters 'Spain' then hits [ENTER] into buscador de pa&iacute;ses" width="1366"/>
+                <img src="e3448a5e22a59ea6098d642c6872292ab92c5a5c758403c01441e0f22e1c3df6.png" title=" Ian clicks on opciones de ciudades" width="1366"/>
+                <img src="5ae0cecf9632fefec23c33a8b33808a535ef061b5f142986a247e8468a8a91ef.png" title=" Ian enters 'Madrid' then hits [ENTER] into buscador de ciudades" width="1366"/>
+                <img src="983aff804ef49b07c912529d7beddf604b0683433d182f10a40c945667c54cd9.png" title=" Ian enters '3157006543' into tel&eacute;fono del cliente" width="1366"/>
+                <img src="983aff804ef49b07c912529d7beddf604b0683433d182f10a40c945667c54cd9.png" title=" Ian llenar informacion cliente (completed)" width="1366"/>
+                <img src="7debd20a0bb782f7274aba722df77422c663e9a183f0aff67dee5828d57b8a93.png" title=" Ian clicks on bot&oacute;n aplicar cambios" width="1366"/>
+                <img src="ed0f6e4d9412ff6ec9122e4f4cc061ee5fd9317e4e6be9ebaa3386898127cb17.png" title=" Ian clicks on bot&oacute;n guardar" width="1366"/>
+                <img src="ed0f6e4d9412ff6ec9122e4f4cc061ee5fd9317e4e6be9ebaa3386898127cb17.png" title=" Ian crear un cliente (completed)" width="1366"/>
+                <img src="a1ee9840c4523eeb22326b56b7aa942ebaa91165aae74a9771cadc60d381b13b.png" title=" Y diligencia los datos con la siguiente informacion:
+| HAB | Hector Company | Ian Bravo | Software Engineer | Diag. 81B #76-76 | Spain | Madrid | 3157006543 | (completed)" width="1366"/>
+                <img src="fd679a188d76d32428bdb8a058fec8c3221714cdb087c7c295730404eb20793a.png" title=" Entonces se debe visualizar la creacion del cliente" width="1366"/>
+                <img src="fd679a188d76d32428bdb8a058fec8c3221714cdb087c7c295730404eb20793a.png" title=" Then cliente creado" width="1366"/>
+                <img src="fd679a188d76d32428bdb8a058fec8c3221714cdb087c7c295730404eb20793a.png" title=" Ian enters 'HAB' into buscar de clientes" width="1366"/>
+                <img src="bd537a79e31e507d6a62728f843c02c02f04b3de0fb0b87a8de000365ee50017.png" title=" Then cliente creado (completed)" width="1366"/>
+                <img src="bd537a79e31e507d6a62728f843c02c02f04b3de0fb0b87a8de000365ee50017.png" title=" Entonces se debe visualizar la creacion del cliente (completed)" width="1366"/>
+                <img src="0bafa3790f006d71387f963f11ccb89526a7dd87ae687dabc4bc29e1361278e1.png" title=" Example: {usuario=admin, clave=serenity, customerID=HAB, companyName=Hector Company, contactName=Ian Bravo, contactTitle=Software Engineer, address=Diag. 81B #76-76, country=Spain, city=Madrid, phone=3157006543} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.88</span>
+</div>
+</body>
+</html>

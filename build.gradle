@@ -1,0 +1,36 @@
+repositories {
+    mavenLocal()
+    jcenter()
+}
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.88")
+    }
+}
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+dependencies {
+    testCompile 'net.serenity-bdd:serenity-core:2.0.88'
+    testCompile 'net.serenity-bdd:serenity-junit:2.0.88'
+    testCompile('junit:junit:4.12')
+    testCompile('org.assertj:assertj-core:3.11.1')
+    testCompile('org.slf4j:slf4j-simple:1.7.25')
+    compile 'net.serenity-bdd:serenity-core:2.0.88'
+    compile 'net.serenity-bdd:serenity-junit:2.0.88'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.48'
+    implementation 'net.serenity-bdd:serenity-ensure:2.0.88'
+
+
+}
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+gradle.startParameter.continueOnFailure = true

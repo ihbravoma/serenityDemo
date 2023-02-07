@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Serenity Demo</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="29e671f0494e631a7304e6662193d80ac0db411178b88506d4c15ee033d204d6.html">Editar Cliente</a></span>
+                > <span class="truncate-60"><a
+                    href="26ae544c30f90f6a75e147b1428956d18af888017b35584360d9a846245f9dbb.html">: Editar cliente correctamente </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-02-2023 00:51</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Editar Cliente </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8c3c034699526f05dc6b32b2a20660f743a6b67c77bc6b1a4c25c08ac2b055f5.html">Editar Cliente
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">: Editar cliente correctamente
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que "Ian" ingresa a la aplicacion<br>Cuando introduce las credenciales<br><table class='embedded'><tbody><tr><td>&lt;usuario&gt;</td><td>&lt;clave&gt;</td></tr></tbody></table><br>Y accede a la seccion de Clientes<br>Y selecciona el cliente "&lt;clienteID&gt;"<br>Y edita la siguiente informacion:<br><table class='embedded'><tbody><tr><td>&lt;contactName&gt;</td><td>&lt;contactTitle&gt;</td><td>&lt;address&gt;</td><td>&lt;country&gt;</td><td>&lt;city&gt;</td><td>&lt;phone&gt;</td></tr></tbody></table><br>Entonces se debe visualizar los cambios realizados</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Example: {usuario=admin, clave=serenity, clienteID=HAB, contactName=Nicole Zambrano, contactTitle=Pilot, address=Diag. 90A #40-40, country=Denmark, city=Kobenhavn, phone=3216789090}" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Dado que &quot;Ian&quot; ingresa a la aplicacion" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Ian ir a" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Ian opens the Inicio sesion" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Ian ir a (completed)" width="1366"/>
+                <img src="a83216e26ef76c131e239fa1397d6a092c0465061371278b84f4ca7921c420f6.png" title=" Dado que &quot;Ian&quot; ingresa a la aplicacion (completed)" width="1366"/>
+                <img src="ae3d70b0e26086ce58c1dd94712363c59356e6306c358ccf8fa14b677e5b54ee.png" title=" Cuando introduce las credenciales
+| admin | serenity |" width="1366"/>
+                <img src="ae3d70b0e26086ce58c1dd94712363c59356e6306c358ccf8fa14b677e5b54ee.png" title=" Ian introducir credenciales" width="1366"/>
+                <img src="ae3d70b0e26086ce58c1dd94712363c59356e6306c358ccf8fa14b677e5b54ee.png" title=" Ian enters 'admin' into nombre de usuario" width="1366"/>
+                <img src="bce4800835b36d2ee9f2e81997260904a530519c11c19ad7c4fc1da83b4a5635.png" title=" Ian enters 'serenity' into clave de usuario" width="1366"/>
+                <img src="f16a5b0c10a08d9318f1a9a3af7bb41f85c4069460fe4fe8f7b278868cbf63b1.png" title=" Ian clicks on bot&oacute;n para iniciar sesi&oacute;n" width="1366"/>
+                <img src="f16a5b0c10a08d9318f1a9a3af7bb41f85c4069460fe4fe8f7b278868cbf63b1.png" title=" Ian introducir credenciales (completed)" width="1366"/>
+                <img src="f16a5b0c10a08d9318f1a9a3af7bb41f85c4069460fe4fe8f7b278868cbf63b1.png" title=" Cuando introduce las credenciales
+| admin | serenity | (completed)" width="1366"/>
+                <img src="ea304b950624e382effa010f873cb748f3ef63aacf239360a1a68caa50375986.png" title=" Y accede a la seccion de Clientes" width="1366"/>
+                <img src="ea304b950624e382effa010f873cb748f3ef63aacf239360a1a68caa50375986.png" title=" Ian acceder al modulo cliente" width="1366"/>
+                <img src="ea304b950624e382effa010f873cb748f3ef63aacf239360a1a68caa50375986.png" title=" Ian clicks on enlace northwind" width="1366"/>
+                <img src="46588fd85272df25f8ca0293ee678bed5514b1fb5723c4d45e706ee51dbc6f9f.png" title=" Ian clicks on enlace para acceder al m&oacute;dulo de clientes" width="1366"/>
+                <img src="46588fd85272df25f8ca0293ee678bed5514b1fb5723c4d45e706ee51dbc6f9f.png" title=" Ian acceder al modulo cliente (completed)" width="1366"/>
+                <img src="46588fd85272df25f8ca0293ee678bed5514b1fb5723c4d45e706ee51dbc6f9f.png" title=" Y accede a la seccion de Clientes (completed)" width="1366"/>
+                <img src="77e0bc687b546d002c09d49f166af6f51db8fa694ed36428000e30003d8ecbde.png" title=" Y selecciona el cliente &quot;HAB&quot;" width="1366"/>
+                <img src="77e0bc687b546d002c09d49f166af6f51db8fa694ed36428000e30003d8ecbde.png" title=" Ian seleccionar cliente" width="1366"/>
+                <img src="77e0bc687b546d002c09d49f166af6f51db8fa694ed36428000e30003d8ecbde.png" title=" Ian enters 'HAB' into buscar de clientes" width="1366"/>
+                <img src="bd537a79e31e507d6a62728f843c02c02f04b3de0fb0b87a8de000365ee50017.png" title=" Ian should see cliente ID with text value that is equal to: &lt;&quot;HAB&quot;&gt;" width="1366"/>
+                <img src="f62798d0cf5a6cac976803c6c678cbf7e02e8760313c2c662f2b2be447d4ee0b.png" title=" Ian clicks on cliente ID" width="1366"/>
+                <img src="f62798d0cf5a6cac976803c6c678cbf7e02e8760313c2c662f2b2be447d4ee0b.png" title=" Ian seleccionar cliente (completed)" width="1366"/>
+                <img src="f62798d0cf5a6cac976803c6c678cbf7e02e8760313c2c662f2b2be447d4ee0b.png" title=" Y selecciona el cliente &quot;HAB&quot; (completed)" width="1366"/>
+                <img src="6b3cc24429a509718cf0432fb96d5a0f4dd67bfd20cd25dda3b30398362f8174.png" title=" Y edita la siguiente informacion:
+| Nicole Zambrano | Pilot | Diag. 90A #40-40 | Denmark | Kobenhavn | 3216789090 |" width="1366"/>
+                <img src="6b3cc24429a509718cf0432fb96d5a0f4dd67bfd20cd25dda3b30398362f8174.png" title=" Ian editar cliente" width="1366"/>
+                <img src="6b3cc24429a509718cf0432fb96d5a0f4dd67bfd20cd25dda3b30398362f8174.png" title=" Ian enters 'Nicole Zambrano' into nombre del contacto" width="1366"/>
+                <img src="2017a098347f82c7fde95cfd067bdd3cf1385938632172b0944a84ddade46184.png" title=" Ian enters 'Pilot' into t&iacute;tulo del contacto" width="1366"/>
+                <img src="b0a1ca3611734a6882e19f8d83632a8bbcf98543b8c89f8b647416f76c6e608f.png" title=" Ian enters 'Diag. 90A #40-40' into direcci&oacute;n del cliente" width="1366"/>
+                <img src="372328f45da3a431ea6d31571e2fcbf497198b2930c1f49fea97cfeaabd73beb.png" title=" Ian clicks on opciones de pa&iacute;ses" width="1366"/>
+                <img src="62291de4cb89c3989c0baaaccfcbc9d279156b422e2cb5c12607adca252f88be.png" title=" Ian enters 'Denmark' then hits [ENTER] into buscador de pa&iacute;ses" width="1366"/>
+                <img src="b993c79b13cbe8d474d29628682926eec2a396ea3aece1566b03c8411cc3c219.png" title=" Ian clicks on opciones de ciudades" width="1366"/>
+                <img src="9e0b8ac7ba4bdfcbb1faea5c39b51cbfad63d6833b8568111fcbd795012a9065.png" title=" Ian enters 'Kobenhavn' then hits [ENTER] into buscador de ciudades" width="1366"/>
+                <img src="96fdd4f163ff077feeb82b2c2e24d4b29095ad8ae34b6c8277750f2d17f8d26e.png" title=" Ian enters '3216789090' into tel&eacute;fono del cliente" width="1366"/>
+                <img src="dad56ba1c17518c322f60fc575744794bf3fffdbed1c4cf22f323e9139d24bdb.png" title=" Ian clicks on bot&oacute;n aplicar cambios" width="1366"/>
+                <img src="632d9385741a9dd15b465565c3b35aaa3a78f05025ac9402a916116162ab22e6.png" title=" Ian clicks on bot&oacute;n guardar" width="1366"/>
+                <img src="632d9385741a9dd15b465565c3b35aaa3a78f05025ac9402a916116162ab22e6.png" title=" Ian editar cliente (completed)" width="1366"/>
+                <img src="632d9385741a9dd15b465565c3b35aaa3a78f05025ac9402a916116162ab22e6.png" title=" Y edita la siguiente informacion:
+| Nicole Zambrano | Pilot | Diag. 90A #40-40 | Denmark | Kobenhavn | 3216789090 | (completed)" width="1366"/>
+                <img src="8d86fe58ff8068a9c6f1e5e0abb530cef8d8511e28c62cd312ebf846a92dea45.png" title=" Entonces se debe visualizar los cambios realizados" width="1366"/>
+                <img src="8d86fe58ff8068a9c6f1e5e0abb530cef8d8511e28c62cd312ebf846a92dea45.png" title=" Then cliente editado" width="1366"/>
+                <img src="8d86fe58ff8068a9c6f1e5e0abb530cef8d8511e28c62cd312ebf846a92dea45.png" title=" Entonces se debe visualizar los cambios realizados (completed)" width="1366"/>
+                <img src="8d86fe58ff8068a9c6f1e5e0abb530cef8d8511e28c62cd312ebf846a92dea45.png" title=" Example: {usuario=admin, clave=serenity, clienteID=HAB, contactName=Nicole Zambrano, contactTitle=Pilot, address=Diag. 90A #40-40, country=Denmark, city=Kobenhavn, phone=3216789090} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.88</span>
+</div>
+</body>
+</html>
