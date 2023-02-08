@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Crear cliente" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T05:50:52" hostname="LAPTOP-H12BMDA5" time="38.997">
+<testsuite name="Crear cliente" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-08T00:39:52" hostname="LAPTOP-H12BMDA5" time="24.23">
   <properties/>
-  <testcase name=": Crear cliente correctamente" classname="Crear cliente" time="38.997"/>
+  <testcase name=": Crear cliente correctamente" classname="Crear cliente" time="24.23"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[feb 07, 2023 12:50:53 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[feb 07, 2023 7:39:52 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 16163
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 24818
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-feb 07, 2023 12:50:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+feb 07, 2023 7:39:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
