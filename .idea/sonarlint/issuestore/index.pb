@@ -11,8 +11,6 @@ o
 ?src/main/java/com/co/serenitydemo/questions/ClienteEditado.java,d\8\d864485bc096efa9ff5d5333b31dd923ea1aa75c
 s
 Csrc/main/java/com/co/serenitydemo/tasks/AccederAlModuloCliente.java,5\3\53e6a45ffa1e4262a5eac4c8437cbb80713594db
-k
-;src/main/java/com/co/serenitydemo/tasks/CrearUnCliente.java,1\f\1f9c09dd08aab1d9caf830e781fb2340505d9320
 j
 :src/main/java/com/co/serenitydemo/tasks/EditarCliente.java,f\8\f8e530954c5b4e2be7747844fdadec03ff83a26f
 s
