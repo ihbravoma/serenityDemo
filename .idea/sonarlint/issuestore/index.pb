@@ -25,13 +25,7 @@ m
 =src/main/java/com/co/serenitydemo/userinterfaces/Cliente.java,9\a\9ab0eccf439a84b3e1ea30ca108f40c719183335
 q
 Asrc/test/java/com/co/serenitydemo/runners/SerenityDemoRunner.java,b\d\bd5f110b3aa4659e9e918c0f2668a717c4bc4e47
-r
-Bsrc/main/java/com/co/serenitydemo/userinterfaces/InicioSesion.java,9\b\9bbb54972f5ee6ff6204fb0b6279715a54e05276
 9
 	readme.md,2\7\275d783e298228506068436512433d343feb52aa
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 C
 serenity.properties,2\5\25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
-
-Qsrc/test/java/com/co/serenitydemo/stepdefinitions/SerenityDemoStepDefinition.java,9\5\951f4638096b78e455eaa36f57c27a276934563b

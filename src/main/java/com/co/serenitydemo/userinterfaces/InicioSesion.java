@@ -2,13 +2,11 @@ package com.co.serenitydemo.userinterfaces;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
-import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 
-@DefaultUrl("https://serenity.is/demo/")
 public class InicioSesion extends PageObject {
 
-    public InicioSesion() {
+    private InicioSesion() {
     }
 
     public static final Target TXT_USERNAME = Target.the("nombre de usuario").located(By.id("LoginPanel0_Username"));
